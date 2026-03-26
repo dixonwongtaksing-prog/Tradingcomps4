@@ -19,29 +19,29 @@ st.markdown(
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
-    [data-testid="stSidebar"] { background: #ffffff; border-right: 1px solid #e2e8f0; }
+    [data-testid="stSidebar"] { background: #f8f7f4; border-right: 1px solid #e4e2db; }
     .top-bar {
-        background: linear-gradient(135deg, #1e3a8a 0%, #1a56db 100%);
+        background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
         border-radius: 10px; padding: 18px 28px; margin-bottom: 20px;
         display: flex; align-items: center; justify-content: space-between;
     }
     .top-bar .badge {
-        background: rgba(255,255,255,0.15); color: white; border-radius: 20px;
+        background: rgba(245,158,11,0.22); color: #fbbf24; border-radius: 20px;
         padding: 4px 12px; font-size: 12px; font-weight: 600;
-        border: 1px solid rgba(255,255,255,0.25);
+        border: 1px solid rgba(245,158,11,0.38);
     }
     .note-text { font-size: 11px; color: #94a3b8; margin-bottom: 8px; }
-    [data-testid="stDataFrame"] { border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+    [data-testid="stDataFrame"] { border: 1px solid #e4e2db; border-radius: 8px; overflow: hidden; }
     .stTabs [data-baseweb="tab-list"] {
-        gap: 4px; background: #f8fafc; border-radius: 8px; padding: 4px;
+        gap: 4px; background: #f1efe8; border-radius: 8px; padding: 4px;
     }
     .stTabs [data-baseweb="tab"] {
         font-size: 13px; font-weight: 500; border-radius: 6px; padding: 6px 16px;
     }
-    .stTabs [aria-selected="true"] { background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .stTabs [aria-selected="true"] { background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
     .footer-note {
         font-size: 11px; color: #94a3b8; text-align: right;
-        margin-top: 8px; padding-top: 8px; border-top: 1px solid #f1f5f9;
+        margin-top: 8px; padding-top: 8px; border-top: 1px solid #e4e2db;
     }
     </style>
     """,
@@ -121,11 +121,11 @@ def fetch_metrics(tickers: tuple) -> dict:
 
 # ── Column definitions ────────────────────────────────────────────────────────
 COLUMN_GROUPS = {
-    "Market Data":      {"cols": ["Mkt Cap ($M)", "TEV ($M)", "% 52W Hi"],                          "bg": "#dbeafe", "fg": "#1e40af"},
-    "NTM Multiples":    {"cols": ["NTM EV/EBITDA", "NTM P/E"],                                      "bg": "#dcfce7", "fg": "#166534"},
-    "LTM Multiples":    {"cols": ["LTM EV/EBITDA", "LTM P/E"],                                      "bg": "#e0e7ef", "fg": "#374151"},
-    "Growth Adjusted":  {"cols": ["PEG"],                                                            "bg": "#fce7f3", "fg": "#9d174d"},
-    "Growth & Margins": {"cols": ["NTM Rev Gr%", "3Y CAGR", "Gross Mgn", "EBITDA Mgn", "Rule of 40"], "bg": "#fef9c3", "fg": "#854d0e"},
+    "Market Data":      {"cols": ["Mkt Cap ($M)", "TEV ($M)", "% 52W Hi"],                          "bg": "#f1f5f9", "fg": "#334155"},
+    "NTM Multiples":    {"cols": ["NTM EV/EBITDA", "NTM P/E"],                                      "bg": "#fef3c7", "fg": "#92400e"},
+    "LTM Multiples":    {"cols": ["LTM EV/EBITDA", "LTM P/E"],                                      "bg": "#e2e8f0", "fg": "#475569"},
+    "Growth Adjusted":  {"cols": ["PEG"],                                                            "bg": "#fde8d8", "fg": "#9a3412"},
+    "Growth & Margins": {"cols": ["NTM Rev Gr%", "3Y CAGR", "Gross Mgn", "EBITDA Mgn", "Rule of 40"], "bg": "#f0fdf4", "fg": "#166534"},
 }
 PCT_COLS   = ["% 52W Hi", "NTM Rev Gr%", "3Y CAGR", "Gross Mgn", "EBITDA Mgn"]
 MULTI_COLS = ["NTM EV/EBITDA", "NTM P/E", "LTM EV/EBITDA", "LTM P/E"]
@@ -285,7 +285,7 @@ def scatter_chart(df):
         return
     fig = px.scatter(d, x="NTM Rev Gr%", y="EBITDA Mgn", text="Ticker",
                      title="Revenue Growth vs EBITDA Margin",
-                     color_discrete_sequence=["#1a56db"])
+                     color_discrete_sequence=["#d97706"])
     fig.update_traces(textposition="top center", textfont_size=10,
                       marker=dict(size=8, line=dict(width=1, color="white")))
     fig.update_layout(
@@ -307,7 +307,7 @@ def treemap_chart(df):
         return
     fig = px.treemap(d, path=["Sub Sector", "Ticker"], values="Mkt Cap ($M)",
                      title="Market Cap by Sub Sector", color="Mkt Cap ($M)",
-                     color_continuous_scale=["#dbeafe", "#1a56db"])
+                     color_continuous_scale=["#fef3c7", "#d97706"])
     fig.update_layout(font=dict(family="Inter, sans-serif", size=12),
                       paper_bgcolor="white", height=420,
                       margin=dict(l=10, r=10, t=50, b=10))
@@ -324,10 +324,10 @@ all_sectors  = sorted(universe_df["sector"].unique().tolist())
 with st.sidebar:
     st.markdown(
         "<div style='padding:12px 0 8px 0;'>"
-        "<div style='font-size:18px;font-weight:700;color:#0f172a;'>📊 Trading Comps</div>"
+        "<div style='font-size:18px;font-weight:700;color:#1e293b;'>📊 Trading Comps</div>"
         "<div style='font-size:12px;color:#64748b;margin-top:2px;'>Services Universe · US &amp; UK</div>"
         "</div>"
-        "<hr style='border:none;border-top:1px solid #e2e8f0;margin:8px 0 16px 0;'>",
+        "<hr style='border:none;border-top:1px solid #e4e2db;margin:8px 0 16px 0;'>",
         unsafe_allow_html=True,
     )
 
@@ -341,7 +341,7 @@ with st.sidebar:
     )
 
     st.markdown(
-        "<hr style='border:none;border-top:1px solid #e2e8f0;margin:16px 0;'>"
+        "<hr style='border:none;border-top:1px solid #e4e2db;margin:16px 0;'>"
         "<div style='font-size:11px;font-weight:700;color:#94a3b8;"
         "letter-spacing:0.08em;text-transform:uppercase;margin-bottom:8px;'>Filters</div>",
         unsafe_allow_html=True,
@@ -350,7 +350,7 @@ with st.sidebar:
     min_tev = st.number_input("Min TEV ($M)", min_value=0, max_value=1_000_000, value=0, step=500)
 
     st.markdown(
-        "<hr style='border:none;border-top:1px solid #e2e8f0;margin:16px 0;'>"
+        "<hr style='border:none;border-top:1px solid #e4e2db;margin:16px 0;'>"
         "<div style='font-size:11px;font-weight:700;color:#94a3b8;"
         "letter-spacing:0.08em;text-transform:uppercase;margin-bottom:8px;'>Display</div>",
         unsafe_allow_html=True,
@@ -359,7 +359,7 @@ with st.sidebar:
     show_charts   = st.toggle("Show charts", value=True)
 
     st.markdown(
-        "<hr style='border:none;border-top:1px solid #e2e8f0;margin:16px 0;'>",
+        "<hr style='border:none;border-top:1px solid #e4e2db;margin:16px 0;'>",
         unsafe_allow_html=True,
     )
 
@@ -368,17 +368,17 @@ with st.sidebar:
     n_us  = len(sdf[sdf["listing_country"] == "US"])
     n_uk  = len(sdf[sdf["listing_country"] == "UK"])
     st.markdown(
-        "<div style='background:#f8fafc;border-radius:8px;padding:12px;'>"
+        "<div style='background:#f1efe8;border-radius:8px;padding:12px;'>"
         "<div style='font-size:11px;color:#64748b;font-weight:500;margin-bottom:6px;'>Universe Summary</div>"
         "<div style='display:flex;justify-content:space-between;'>"
         "<span style='font-size:12px;color:#374151;'>Companies</span>"
-        f"<span style='font-size:12px;font-weight:700;color:#0f172a;'>{len(sdf)}</span></div>"
+        f"<span style='font-size:12px;font-weight:700;color:#1e293b;'>{len(sdf)}</span></div>"
         "<div style='display:flex;justify-content:space-between;margin-top:3px;'>"
         "<span style='font-size:12px;color:#374151;'>US Listed</span>"
-        f"<span style='font-size:12px;font-weight:600;color:#1a56db;'>{n_us}</span></div>"
+        f"<span style='font-size:12px;font-weight:600;color:#d97706;'>{n_us}</span></div>"
         "<div style='display:flex;justify-content:space-between;margin-top:3px;'>"
         "<span style='font-size:12px;color:#374151;'>UK Listed</span>"
-        f"<span style='font-size:12px;font-weight:600;color:#1a56db;'>{n_uk}</span></div>"
+        f"<span style='font-size:12px;font-weight:600;color:#d97706;'>{n_uk}</span></div>"
         "</div>",
         unsafe_allow_html=True,
     )
@@ -400,11 +400,11 @@ tickers_to_load = filtered_df["ticker"].tolist()[:max_companies]
 st.markdown(
     "<div class='top-bar'>"
     "<div>"
-    "<div style='font-size:11px;color:#93c5fd;font-weight:500;"
+    "<div style='font-size:11px;color:#94a3b8;font-weight:500;"
     "letter-spacing:0.08em;text-transform:uppercase;margin-bottom:4px;'>"
     "Services Universe · US &amp; UK</div>"
     f"<div style='color:white;font-size:22px;font-weight:700;letter-spacing:-0.02em;'>{selected_sector}</div>"
-    "<div style='color:#bfdbfe;font-size:13px;margin-top:4px;'>"
+    "<div style='color:#cbd5e1;font-size:13px;margin-top:4px;'>"
     "All financials in millions ($M). Sorted by TEV descending.</div>"
     "</div>"
     f"<span class='badge'>{len(tickers_to_load)} companies loaded</span>"
@@ -455,9 +455,9 @@ with tab_table:
 
     def highlight_stats(row):
         if row.name == 0:
-            return ["background-color:#f0fdf4; font-style:italic; color:#374151;"] * len(row)
+            return ["background-color:#fffbeb; font-style:italic; color:#374151;"] * len(row)
         if row.name == 1:
-            return ["background-color:#fefce8; font-style:italic; color:#374151;"] * len(row)
+            return ["background-color:#f8fafc; font-style:italic; color:#374151;"] * len(row)
         return [""] * len(row)
 
     styled = (
@@ -467,14 +467,14 @@ with tab_table:
         .set_table_styles([
             {"selector": "thead th", "props": [
                 ("font-size", "11px"), ("font-weight", "700"), ("text-align", "center"),
-                ("padding", "6px 8px"), ("border-bottom", "2px solid #e2e8f0"),
-                ("background-color", "#f8fafc"),
+                ("padding", "6px 8px"), ("border-bottom", "2px solid #e4e2db"),
+                ("background-color", "#f1efe8"),
             ]},
             {"selector": "tbody tr:nth-child(n+3):nth-child(even)", "props": [
-                ("background-color", "#f8fafc"),
+                ("background-color", "#f8f7f4"),
             ]},
-            {"selector": "tbody tr:hover",         "props": [("background-color", "#eff6ff")]},
-            {"selector": "tbody td",               "props": [("text-align", "right"), ("border-bottom", "1px solid #f1f5f9")]},
+            {"selector": "tbody tr:hover",         "props": [("background-color", "#fef9ee")]},
+            {"selector": "tbody td",               "props": [("text-align", "right"), ("border-bottom", "1px solid #ede9e0")]},
             {"selector": "tbody td:first-child, tbody td:nth-child(2)", "props": [("text-align", "left")]},
         ])
         .hide(axis="index")
@@ -522,9 +522,9 @@ with tab_charts:
 
         col_a, col_b = st.columns(2)
         with col_a:
-            bar_chart(chart_df, "NTM EV/EBITDA", "NTM EV/EBITDA by Company", ["#bfdbfe", "#1a56db"])
+            bar_chart(chart_df, "NTM EV/EBITDA", "NTM EV/EBITDA by Company", ["#fef3c7", "#d97706"])
         with col_b:
-            bar_chart(chart_df, "NTM P/E", "NTM P/E by Company", ["#bbf7d0", "#059669"])
+            bar_chart(chart_df, "NTM P/E", "NTM P/E by Company", ["#e2e8f0", "#334155"])
 
         col_c, col_d = st.columns(2)
         with col_c:
@@ -558,7 +558,7 @@ with tab_universe:
         sc.columns = ["Sub Sector", "Count"]
         fig = px.bar(
             sc, x="Count", y="Sub Sector", orientation="h",
-            color="Count", color_continuous_scale=["#dbeafe", "#1a56db"],
+            color="Count", color_continuous_scale=["#fef3c7", "#d97706"],
             title="Companies per Sub Sector — {}".format(selected_sector),
         )
         fig.update_layout(
@@ -575,7 +575,7 @@ with tab_universe:
         fig = px.pie(
             sc, values="Count", names="Sector",
             title="Universe Breakdown by Sector",
-            color_discrete_sequence=px.colors.sequential.Blues_r,
+            color_discrete_sequence=["#1e293b","#334155","#475569","#64748b","#94a3b8","#d97706","#f59e0b","#fbbf24","#fcd34d","#fef3c7"],
         )
         fig.update_layout(
             paper_bgcolor="white", height=420,
