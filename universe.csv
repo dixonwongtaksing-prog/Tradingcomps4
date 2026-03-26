@@ -1,0 +1,350 @@
+sector,sub_sector,ticker,name,listing_country,exchange
+Consulting and professional services,Legal & professional services,GTLY,Gateley (Holdings) plc,UK,LSE
+Consulting and professional services,Outsourcing / public services,CPI,Capita plc,UK,LSE
+Consulting and professional services,Pensions consulting,XPS,XPS Pensions Group plc,UK,LSE
+Consulting and professional services,Professional services / training,FDM,FDM Group (Holdings) plc,UK,LSE
+Consulting and professional services,Restructuring / advisory,BEG,Begbies Traynor Group plc,UK,LSE
+Consulting and professional services,Restructuring / advisory,FRP,FRP Advisory Group plc,UK,LSE
+Consulting and professional services,Staffing & recruiting,HAYS,Hays plc,UK,LSE
+Consulting and professional services,Staffing & recruiting,PAGE,PageGroup plc,UK,LSE
+Consulting and professional services,Staffing & recruiting,RWA,Robert Walters plc,UK,LSE
+Consulting and professional services,Staffing & recruiting,STEM,SThree plc,UK,LSE
+Consulting and professional services,Business process / public sector services,MMS,"Maximus, Inc.",US,NYSE
+Consulting and professional services,Business services,RGP,"Resources Connection, Inc.",US,NASDAQ
+Consulting and professional services,HR consulting / executive search,KFY,Korn Ferry,US,NYSE
+Consulting and professional services,HR outsourcing / PEO,NSP,"Insperity, Inc.",US,NYSE
+Consulting and professional services,HR outsourcing / PEO,TNET,"TriNet Group, Inc.",US,NYSE
+Consulting and professional services,IT & professional staffing,ASGN,ASGN Incorporated,US,NYSE
+Consulting and professional services,Management consulting,BAH,Booz Allen Hamilton Holding Corporation,US,NYSE
+Consulting and professional services,Management consulting,CRAI,"CRA International, Inc.",US,NASDAQ
+Consulting and professional services,Management consulting,FCN,"FTI Consulting, Inc.",US,NYSE
+Consulting and professional services,Management consulting,HURN,Huron Consulting Group Inc.,US,NASDAQ
+Consulting and professional services,Management consulting,ICFI,"ICF International, Inc.",US,NASDAQ
+Consulting and professional services,Payroll & HR services,ADP,"Automatic Data Processing, Inc.",US,NASDAQ
+Consulting and professional services,Payroll & HR services,PAYX,"Paychex, Inc.",US,NASDAQ
+Consulting and professional services,Professional services,CBZ,"CBIZ, Inc.",US,NYSE
+Consulting and professional services,Research & advisory,FORR,"Forrester Research, Inc.",US,NASDAQ
+Consulting and professional services,Staffing & recruiting,BBSI,"Barrett Business Services, Inc.",US,NASDAQ
+Consulting and professional services,Staffing & recruiting,KELYA,"Kelly Services, Inc.",US,NASDAQ
+Consulting and professional services,Staffing & recruiting,KFRC,Kforce Inc.,US,NYSE
+Consulting and professional services,Staffing & recruiting,MAN,ManpowerGroup Inc.,US,NYSE
+Consulting and professional services,Staffing & recruiting,RHI,Robert Half Inc.,US,NYSE
+Insurance services,Life insurance,CSN,Chesnara plc,UK,LSE
+Insurance services,Life insurance,JUST,Just Group plc,UK,LSE
+Insurance services,Life insurance,LGEN,Legal & General Group plc,UK,LSE
+Insurance services,Life insurance,PHNX,Phoenix Group Holdings plc,UK,LSE
+Insurance services,Life insurance,PUK,Prudential plc,UK,LSE
+Insurance services,Lloyd's / underwriting,HUW,Helios Underwriting plc,UK,LSE
+Insurance services,Multi-line insurance,AV,Aviva plc,UK,LSE
+Insurance services,P&C insurance,ADM,Admiral Group plc,UK,LSE
+Insurance services,P&C insurance,DLG,Direct Line Insurance Group plc,UK,LSE
+Insurance services,P&C insurance,SBRE,Sabre Insurance Group plc,UK,LSE
+Insurance services,Specialty insurance,BEZ,Beazley plc,UK,LSE
+Insurance services,Specialty insurance,HSX,Hiscox Ltd,UK,LSE
+Insurance services,Specialty insurance,LRE,Lancashire Holdings Limited,UK,LSE
+Insurance services,Claims / TPA,CRD.A,Crawford & Company,US,NYSE
+Insurance services,Claims / TPA,CRD.B,Crawford & Company,US,NYSE
+Insurance services,Claims / TPA,CRVL,CorVel Corporation,US,NASDAQ
+Insurance services,Health insurance,CI,The Cigna Group,US,NYSE
+Insurance services,Health insurance,CNC,Centene Corporation,US,NYSE
+Insurance services,Health insurance,ELV,"Elevance Health, Inc.",US,NYSE
+Insurance services,Health insurance,HUM,Humana Inc.,US,NYSE
+Insurance services,Health insurance,MOH,"Molina Healthcare, Inc.",US,NYSE
+Insurance services,Health insurance,OSCR,"Oscar Health, Inc.",US,NYSE
+Insurance services,Health insurance,UNH,UnitedHealth Group Incorporated,US,NYSE
+Insurance services,Insurance brokerage,AJG,Arthur J. Gallagher & Co.,US,NYSE
+Insurance services,Insurance brokerage,AON,Aon plc,US,NYSE
+Insurance services,Insurance brokerage,BRO,"Brown & Brown, Inc.",US,NYSE
+Insurance services,Insurance brokerage,BRP,"BRP Group, Inc.",US,NASDAQ
+Insurance services,Insurance brokerage,ERIE,Erie Indemnity Company,US,NASDAQ
+Insurance services,Insurance brokerage,MMC,"Marsh & McLennan Companies, Inc.",US,NYSE
+Insurance services,Insurance brokerage,RYAN,"Ryan Specialty Holdings, Inc.",US,NYSE
+Insurance services,Insurance brokerage,WTW,Willis Towers Watson Public Limited Company,US,NASDAQ
+Insurance services,Insurance distribution,EHTH,"eHealth, Inc.",US,NASDAQ
+Insurance services,Insurance distribution,GOCO,"GoHealth, Inc.",US,NASDAQ
+Insurance services,Insurance distribution,GSHD,"Goosehead Insurance, Inc.",US,NASDAQ
+Insurance services,Insurance distribution,SLQT,"SelectQuote, Inc.",US,NYSE
+Insurance services,Insurance distribution,TWFG,"TWFG, Inc.",US,NASDAQ
+Insurance services,Insurtech,HIPO,Hippo Holdings Inc.,US,NYSE
+Insurance services,Insurtech,LMND,"Lemonade, Inc.",US,NYSE
+Insurance services,Insurtech,ROOT,"Root, Inc.",US,NASDAQ
+Insurance services,Life insurance,AFL,Aflac Incorporated,US,NYSE
+Insurance services,Life insurance,BHF,"Brighthouse Financial, Inc.",US,NASDAQ
+Insurance services,Life insurance,CNO,"CNO Financial Group, Inc.",US,NYSE
+Insurance services,Life insurance,FG,"F&G Annuities & Life, Inc.",US,NYSE
+Insurance services,Life insurance,GL,Globe Life Inc.,US,NYSE
+Insurance services,Life insurance,LNC,Lincoln National Corporation,US,NYSE
+Insurance services,Life insurance,MET,"MetLife, Inc.",US,NYSE
+Insurance services,Life insurance,MFC,Manulife Financial Corporation,US,NYSE
+Insurance services,Life insurance,PFG,"Principal Financial Group, Inc.",US,NASDAQ
+Insurance services,Life insurance,PRU,"Prudential Financial, Inc.",US,NYSE
+Insurance services,Life insurance,SLF,Sun Life Financial Inc.,US,NYSE
+Insurance services,Life insurance,UNM,Unum Group,US,NYSE
+Insurance services,Life insurance,VOYA,"Voya Financial, Inc.",US,NYSE
+Insurance services,Mortgage insurance,ESNT,Essent Group Ltd.,US,NYSE
+Insurance services,Mortgage insurance,MTG,MGIC Investment Corporation,US,NYSE
+Insurance services,Mortgage insurance,NMIH,"NMI Holdings, Inc.",US,NASDAQ
+Insurance services,Mortgage insurance,RDN,Radian Group Inc.,US,NYSE
+Insurance services,P&C insurance,AFG,"American Financial Group, Inc.",US,NYSE
+Insurance services,P&C insurance,AIG,"American International Group, Inc.",US,NYSE
+Insurance services,P&C insurance,ALL,The Allstate Corporation,US,NYSE
+Insurance services,P&C insurance,CB,Chubb Limited,US,NYSE
+Insurance services,P&C insurance,CINF,Cincinnati Financial Corporation,US,NASDAQ
+Insurance services,P&C insurance,HIG,"The Hartford Financial Services Group, Inc.",US,NYSE
+Insurance services,P&C insurance,MKL,Markel Group Inc.,US,NYSE
+Insurance services,P&C insurance,PGR,The Progressive Corporation,US,NYSE
+Insurance services,P&C insurance,TRV,"The Travelers Companies, Inc.",US,NYSE
+Insurance services,P&C insurance,WRB,W. R. Berkley Corporation,US,NYSE
+Insurance services,Reinsurance,AXS,AXIS Capital Holdings Limited,US,NYSE
+Insurance services,Reinsurance,EG,"Everest Group, Ltd.",US,NYSE
+Insurance services,Reinsurance,RNR,RenaissanceRe Holdings Ltd.,US,NYSE
+Insurance services,Reinsurance / specialty,ACGL,Arch Capital Group Ltd.,US,NASDAQ
+Insurance services,Specialty insurance,AIZ,"Assurant, Inc.",US,NYSE
+Insurance services,Specialty insurance,KNSL,"Kinsale Capital Group, Inc.",US,NYSE
+Insurance services,Specialty insurance,ORI,Old Republic International Corporation,US,NYSE
+Insurance services,Specialty insurance,RLI,RLI Corp.,US,NYSE
+Insurance services,Specialty insurance,SIGI,"Selective Insurance Group, Inc.",US,NASDAQ
+Insurance services,Specialty insurance,SKWD,"Skyward Specialty Insurance Group, Inc.",US,NASDAQ
+Insurance services,Specialty insurance,TRUP,"Trupanion, Inc.",US,NASDAQ
+Insurance services,Title insurance,FAF,"Fidelity National Financial, Inc.",US,NYSE
+Information and data services,B2B information / events / publishing,INF,Informa plc,UK,LSE
+Information and data services,Compliance / professional information,WIL,Wilmington plc,UK,LSE
+Information and data services,Credit / consumer data,EXPN,Experian plc,UK,LSE
+Information and data services,Financial data / benchmark administration,LSEG,London Stock Exchange Group plc,UK,LSE
+Information and data services,Identity / fraud data,GBG,GB Group plc,UK,LSE
+Information and data services,Industry data / market intelligence,DATA,GlobalData Plc,UK,LSE
+Information and data services,Public opinion / data analytics,YOU,YouGov plc,UK,LSE
+Information and data services,Scientific / legal information,REL,RELX PLC,UK,LSE
+Information and data services,Business information,DNB,"Dun & Bradstreet Holdings, Inc.",US,NYSE
+Information and data services,Credit / identity data,EFX,Equifax Inc.,US,NYSE
+Information and data services,Credit data / scores,TRU,TransUnion,US,NYSE
+Information and data services,Credit ratings & analytics,MCO,Moody's Corporation,US,NYSE
+Information and data services,Exchange / market data,CBOE,"Cboe Global Markets, Inc.",US,Cboe BZX
+Information and data services,Financial data,FDS,FactSet Research Systems Inc.,US,NYSE
+Information and data services,Financial data & analytics,SPGI,S&P Global Inc.,US,NYSE
+Information and data services,IP / academic / enterprise information,CLVT,Clarivate Plc,US,NYSE
+Information and data services,Index / analytics,MSCI,MSCI Inc.,US,NYSE
+Information and data services,Investment data,MORN,"Morningstar, Inc.",US,NASDAQ
+Information and data services,Legal / tax / regulatory information,TRI,Thomson Reuters Corporation,US,NYSE
+Information and data services,Market intelligence,MKTW,"MarketWise, Inc.",US,NASDAQ
+Information and data services,Property / real estate data,CSGP,"CoStar Group, Inc.",US,NASDAQ
+Information and data services,Risk / insurance data,VRSK,"Verisk Analytics, Inc.",US,NASDAQ
+Information and data services,Scientific / legal information,RELX,RELX PLC,US,NYSE
+Information and data services,Stock exchange / market data,CME,CME Group Inc.,US,NASDAQ
+Information and data services,Stock exchange / market data,ICE,"Intercontinental Exchange, Inc.",US,NYSE
+Information and data services,Stock exchange / market data,NDAQ,"Nasdaq, Inc.",US,NASDAQ
+Information and data services,Valuation / workflow data,VALU,"Value Line, Inc.",US,NASDAQ
+IT services,Cybersecurity / IT services,NCC,NCC Group plc,UK,LSE
+IT services,Digital services / software engineering,KNOS,Kainos Group plc,UK,LSE
+IT services,IT reseller / solutions,BYIT,Bytes Technology Group plc,UK,LSE
+IT services,IT reseller / solutions,CCC,Computacenter plc,UK,LSE
+IT services,IT reseller / solutions,SCT,Softcat plc,UK,LSE
+IT services,Managed network / cloud services,RCN,Redcentric plc,UK,LSE
+IT services,Analytics / digital ops,EXLS,"ExlService Holdings, Inc.",US,NASDAQ
+IT services,Business process / outsourcing,CNXC,Concentrix Corporation,US,NASDAQ
+IT services,Customer experience / outsourcing,TASK,"TaskUs, Inc.",US,NASDAQ
+IT services,Customer experience BPO,IBEX,IBEX Limited,US,NASDAQ
+IT services,Customer experience BPO,TTEC,"TTEC Holdings, Inc.",US,NASDAQ
+IT services,Digital consulting,G,Genpact Limited,US,NYSE
+IT services,Digital consulting,GLOB,Globant S.A.,US,NYSE
+IT services,Digital engineering,DAVA,Endava plc,US,NYSE
+IT services,Digital engineering,EPAM,"EPAM Systems, Inc.",US,NYSE
+IT services,Digital engineering,GDYN,"Grid Dynamics Holdings, Inc.",US,NASDAQ
+IT services,Digital engineering,TWKS,"Thoughtworks Holding, Inc.",US,NASDAQ
+IT services,Digital transformation / engineering,PSN,Parsons Corporation,US,NYSE
+IT services,Enterprise services,VYX,NCR Voyix Corporation,US,NYSE
+IT services,Fintech / investor communications tech,BR,"Broadridge Financial Solutions, Inc.",US,NYSE
+IT services,Government IT services,CACI,CACI International Inc,US,NYSE
+IT services,Government IT services,LDOS,"Leidos Holdings, Inc.",US,NYSE
+IT services,Government IT services,SAIC,Science Applications International Corporation,US,NASDAQ
+IT services,IT consulting,ACN,Accenture plc,US,NYSE
+IT services,IT reseller / services,PLUS,ePlus inc.,US,NASDAQ
+IT services,IT reseller / solutions,CDW,CDW Corporation,US,NASDAQ
+IT services,IT services,CTSH,Cognizant Technology Solutions Corporation,US,NASDAQ
+IT services,IT services,DXC,DXC Technology Company,US,NYSE
+IT services,IT services,FIS,"Fidelity National Information Services, Inc.",US,NYSE
+IT services,IT services,GIB,CGI Inc.,US,NYSE
+IT services,IT services,IBM,International Business Machines Corporation,US,NYSE
+IT services,IT services,INFY,Infosys Limited,US,NYSE
+IT services,IT services,UIS,Unisys Corporation,US,NYSE
+IT services,IT services,WIT,Wipro Limited,US,NYSE
+IT services,IT solutions reseller,NSIT,"Insight Enterprises, Inc.",US,NASDAQ
+IT services,Information services / analytics,NIQ,NIQ Global Intelligence plc,US,NYSE
+IT services,MSP / software management,NABL,"N-able, Inc.",US,NYSE
+IT services,Managed infrastructure,KD,"Kyndryl Holdings, Inc.",US,NYSE
+IT services,Payments / financial software services,JKHY,"Jack Henry & Associates, Inc.",US,NASDAQ
+IT services,Research / advisory,IT,"Gartner, Inc.",US,NYSE
+Wealth management and advisory,Platform / adviser admin,IHP,IntegraFin Holdings plc,UK,LSE
+Wealth management and advisory,Traditional asset management,ABDN,abrdn plc,UK,LSE
+Wealth management and advisory,Traditional asset management,JUP,Jupiter Fund Management plc,UK,LSE
+Wealth management and advisory,Traditional asset management,LIO,Liontrust Asset Management plc,UK,LSE
+Wealth management and advisory,Traditional asset management,POLR,Polar Capital Holdings plc,UK,LSE
+Wealth management and advisory,Traditional asset management,SDR,Schroders plc,UK,LSE
+Wealth management and advisory,Wealth / fiduciary services,JTC,JTC PLC,UK,LSE
+Wealth management and advisory,Wealth management,AJB,AJ Bell plc,UK,LSE
+Wealth management and advisory,Wealth management,BRK,Brooks Macdonald Group plc,UK,LSE
+Wealth management and advisory,Wealth management,QLT,Quilter plc,UK,LSE
+Wealth management and advisory,Wealth management,RAT,Rathbones Group Plc,UK,LSE
+Wealth management and advisory,Wealth management,STJ,St. James's Place plc,UK,LSE
+Wealth management and advisory,Wealth management,TAM,Tatton Asset Management plc,UK,LSE
+Wealth management and advisory,Advisory / investment banking,EVR,Evercore Inc.,US,NYSE
+Wealth management and advisory,Advisory / investment banking,HLI,"Houlihan Lokey, Inc.",US,NYSE
+Wealth management and advisory,Advisory / investment banking,LAZ,"Lazard, Inc.",US,NYSE
+Wealth management and advisory,Advisory / investment banking,MC,Moelis & Company,US,NYSE
+Wealth management and advisory,Advisory / investment banking,PJT,PJT Partners Inc.,US,NYSE
+Wealth management and advisory,ETF / digital wealth,WT,"WisdomTree, Inc.",US,NYSE
+Wealth management and advisory,Traditional asset management,AAMI,Acadian Asset Management Inc.,US,NYSE
+Wealth management and advisory,Traditional asset management,AMG,"Affiliated Managers Group, Inc.",US,NYSE
+Wealth management and advisory,Traditional asset management,APAM,Artisan Partners Asset Management Inc.,US,NYSE
+Wealth management and advisory,Traditional asset management,BEN,"Franklin Resources, Inc.",US,NYSE
+Wealth management and advisory,Traditional asset management,BLK,"BlackRock, Inc.",US,NYSE
+Wealth management and advisory,Traditional asset management,CNS,"Cohen & Steers, Inc.",US,NYSE
+Wealth management and advisory,Traditional asset management,FHI,"Federated Hermes, Inc.",US,NYSE
+Wealth management and advisory,Traditional asset management,JHG,Janus Henderson Group plc,US,NYSE
+Wealth management and advisory,Traditional asset management,TROW,"T. Rowe Price Group, Inc.",US,NASDAQ
+Wealth management and advisory,Traditional asset management,VCTR,"Victory Capital Holdings, Inc.",US,NASDAQ
+Wealth management and advisory,Wealth / adviser platform,SEIC,SEI Investments Company,US,NASDAQ
+Wealth management and advisory,Wealth management,AMP,"Ameriprise Financial, Inc.",US,NYSE
+Wealth management and advisory,Wealth management,LPLA,LPL Financial Holdings Inc.,US,NASDAQ
+Wealth management and advisory,Wealth management,RJF,"Raymond James Financial, Inc.",US,NYSE
+Wealth management and advisory,Wealth management,SF,Stifel Financial Corp.,US,NYSE
+Wealth management and advisory,Wealth management / brokerage,PIPR,Piper Sandler Companies,US,NYSE
+Supply chain services,Distribution / outsourcing,BNZL,Bunzl plc,UK,LSE
+Supply chain services,Industrial / MRO distribution,RS1,RS Group plc,UK,LSE
+Supply chain services,Specialized distribution,DPLM,Diploma PLC,UK,LSE
+Supply chain services,3PL / freight brokerage,CHRW,"C.H. Robinson Worldwide, Inc.",US,NASDAQ
+Supply chain services,Air freight / forwarding,FWRD,Forward Air Corporation,US,NASDAQ
+Supply chain services,Asset-light logistics,LSTR,"Landstar System, Inc.",US,NASDAQ
+Supply chain services,Asset-light logistics,RLGT,"Radiant Logistics, Inc.",US,NYSE American
+Supply chain services,Asset-light logistics,RXO,"RXO, Inc.",US,NYSE
+Supply chain services,Asset-light trucking / logistics,ULH,"Universal Logistics Holdings, Inc.",US,NASDAQ
+Supply chain services,Contract logistics,GXO,"GXO Logistics, Inc.",US,NYSE
+Supply chain services,Freight forwarding,EXPD,"Expeditors International of Washington, Inc.",US,NYSE
+Supply chain services,Industrial distribution / supply chain,FERG,Ferguson Enterprises Inc.,US,NYSE
+Supply chain services,Integrated freight & logistics,FDX,FedEx Corporation,US,NYSE
+Supply chain services,Integrated freight & logistics,UPS,"United Parcel Service, Inc.",US,NYSE
+Supply chain services,Intermodal / logistics,HUBG,"Hub Group, Inc.",US,NASDAQ
+Supply chain services,LTL / logistics,ARCB,ArcBest Corporation,US,NASDAQ
+Supply chain services,LTL transportation,ODFL,"Old Dominion Freight Line, Inc.",US,NASDAQ
+Supply chain services,LTL transportation,SAIA,"Saia, Inc.",US,NASDAQ
+Supply chain services,Mail / shipping solutions,PBI,Pitney Bowes Inc.,US,NYSE
+Supply chain services,Transportation & logistics,JBHT,"J.B. Hunt Transport Services, Inc.",US,NASDAQ
+Supply chain services,Transportation / brokerage,XPO,"XPO, Inc.",US,NYSE
+Supply chain services,Truckload / logistics,CVLG,"Covenant Logistics Group, Inc.",US,NYSE
+Supply chain services,Truckload / logistics,KNX,Knight-Swift Transportation Holdings Inc.,US,NYSE
+Supply chain services,Truckload / logistics,MRTN,"Marten Transport, Ltd.",US,NASDAQ
+Supply chain services,Truckload / logistics,SNDR,"Schneider National, Inc.",US,NYSE
+Supply chain services,Truckload / logistics,WERN,"Werner Enterprises, Inc.",US,NASDAQ
+"Field services, engineering services, and TIC",Construction / engineering,COST,Costain Group plc,UK,LSE
+"Field services, engineering services, and TIC",Engineering consulting,RCDO,Ricardo plc,UK,LSE
+"Field services, engineering services, and TIC",Engineering services,BAB,Babcock International Group plc,UK,LSE
+"Field services, engineering services, and TIC",Engineering services,KLR,Keller Group plc,UK,LSE
+"Field services, engineering services, and TIC",Engineering services,RNWH,Renew Holdings plc,UK,LSE
+"Field services, engineering services, and TIC",Engineering services,WG,John Wood Group plc,UK,LSE
+"Field services, engineering services, and TIC",Facilities / field services,MTO,Mitie Group plc,UK,LSE
+"Field services, engineering services, and TIC",Field services,MER,Mears Group plc,UK,LSE
+"Field services, engineering services, and TIC",Government / field services,SRP,Serco Group plc,UK,LSE
+"Field services, engineering services, and TIC",Steel / construction services,SFR,Severfield plc,UK,LSE
+"Field services, engineering services, and TIC","Testing, inspection & certification",ITRK,Intertek Group plc,UK,LSE
+"Field services, engineering services, and TIC",Building services,BLD,TopBuild Corp.,US,NYSE
+"Field services, engineering services, and TIC",Civil engineering,GVA,Granite Construction Incorporated,US,NYSE
+"Field services, engineering services, and TIC",Electrical / building services,EME,"EMCOR Group, Inc.",US,NYSE
+"Field services, engineering services, and TIC",Electrical / industrial services,IESC,"IES Holdings, Inc.",US,NASDAQ
+"Field services, engineering services, and TIC",Electrical infrastructure services,MYRG,MYR Group Inc.,US,NASDAQ
+"Field services, engineering services, and TIC",Engineering & consulting,ACM,AECOM,US,NYSE
+"Field services, engineering services, and TIC",Engineering & consulting,BWMN,Bowman Consulting Group Ltd.,US,NASDAQ
+"Field services, engineering services, and TIC",Engineering & consulting,J,Jacobs Solutions Inc.,US,NYSE
+"Field services, engineering services, and TIC",Engineering & consulting,NVEE,"NV5 Global, Inc.",US,NASDAQ
+"Field services, engineering services, and TIC",Engineering & consulting,STN,Stantec Inc.,US,NYSE
+"Field services, engineering services, and TIC",Engineering & consulting,TTEK,"Tetra Tech, Inc.",US,NASDAQ
+"Field services, engineering services, and TIC",Engineering / EPC,FLR,Fluor Corporation,US,NYSE
+"Field services, engineering services, and TIC",Engineering / government services,KBR,"KBR, Inc.",US,NYSE
+"Field services, engineering services, and TIC",Engineering / lifting services,AGX,"Argan, Inc.",US,NYSE
+"Field services, engineering services, and TIC",Engineering / power consulting,WLDN,"Willdan Group, Inc.",US,NASDAQ
+"Field services, engineering services, and TIC",Industrial / energy services,MTRX,Matrix Service Company,US,NASDAQ
+"Field services, engineering services, and TIC",Infrastructure / civil services,STRL,"Sterling Infrastructure, Inc.",US,NASDAQ
+"Field services, engineering services, and TIC",Infrastructure / utility services,MTZ,"MasTec, Inc.",US,NYSE
+"Field services, engineering services, and TIC",Infrastructure services,PRIM,Primoris Services Corporation,US,NYSE
+"Field services, engineering services, and TIC",Infrastructure services,PWR,"Quanta Services, Inc.",US,NYSE
+"Field services, engineering services, and TIC",Infrastructure services,ROAD,"Construction Partners, Inc.",US,NASDAQ
+"Field services, engineering services, and TIC",Marine / specialty construction,ORN,"Orion Group Holdings, Inc.",US,NYSE
+"Field services, engineering services, and TIC",Mechanical / HVAC services,FIX,"Comfort Systems USA, Inc.",US,NYSE
+"Field services, engineering services, and TIC",Offshore / field services,OII,"Oceaneering International, Inc.",US,NYSE
+"Field services, engineering services, and TIC",Safety / fire protection services,APG,APi Group Corporation,US,NYSE
+"Field services, engineering services, and TIC",Scientific / engineering consulting,EXPO,"Exponent, Inc.",US,NASDAQ
+"Field services, engineering services, and TIC",Telecom / utility field services,DY,"Dycom Industries, Inc.",US,NYSE
+"Field services, engineering services, and TIC","Testing, inspection & certification",ULS,UL Solutions Inc.,US,NYSE
+Property services,Estate agency / lettings,BLV,Belvoir Group PLC,UK,LSE
+Property services,Estate agency franchising,TPFG,The Property Franchise Group PLC,UK,LSE
+Property services,Property portal,RMV,Rightmove plc,UK,LSE
+Property services,Property services,LSL,LSL Property Services plc,UK,LSE
+Property services,Real estate services,SVS,Savills plc,UK,LSE
+Property services,Residential brokerage,FOXT,Foxtons Group plc,UK,LSE
+Property services,Residential brokerage,WINK,M Winkworth plc,UK,LSE
+Property services,Commercial brokerage,MMI,"Marcus & Millichap, Inc.",US,NYSE
+Property services,Commercial real estate services,CIGI,Colliers International Group Inc.,US,NASDAQ
+Property services,Commercial real estate services,CWK,Cushman & Wakefield plc,US,NYSE
+Property services,Commercial real estate services,NMRK,"Newmark Group, Inc.",US,NASDAQ
+Property services,Home transaction platform,OPAD,Offerpad Solutions Inc.,US,NYSE
+Property services,Property management / residential services,FSV,FirstService Corporation,US,NASDAQ
+Property services,Property services / mortgage tech,ASPS,Altisource Portfolio Solutions S.A.,US,NASDAQ
+Property services,Real estate services,CBRE,"CBRE Group, Inc.",US,NYSE
+Property services,Real estate services,JLL,Jones Lang LaSalle Incorporated,US,NYSE
+Property services,Residential brokerage,COMP,"Compass, Inc.",US,NYSE
+Property services,Residential brokerage,DOUG,Douglas Elliman Inc.,US,NYSE
+Property services,Residential brokerage,EXPI,"eXp World Holdings, Inc.",US,NASDAQ
+Property services,Residential brokerage,FTHM,Fathom Holdings Inc.,US,NASDAQ
+Property services,Residential brokerage,REAX,The Real Brokerage Inc.,US,NASDAQ
+Property services,Residential brokerage,RMAX,"RE/MAX Holdings, Inc.",US,NYSE
+Property services,Residential platform,BEKE,KE Holdings Inc.,US,NYSE
+Property services,iBuying / residential platform,OPEN,Opendoor Technologies Inc.,US,NASDAQ
+Education,Education / publishing,PSON,Pearson plc,UK,LSE
+Education,Education services,MLVN,Malvern International plc,UK,LSE
+Education,Education / media,GHC,Graham Holdings Company,US,NYSE
+Education,Education / training,UTI,"Universal Technical Institute, Inc.",US,NYSE
+Education,Education platform,CHGG,"Chegg, Inc.",US,NYSE
+Education,Education platform,COUR,"Coursera, Inc.",US,NYSE
+Education,Education platform,UDMY,"Udemy, Inc.",US,NASDAQ
+Education,Education services,AFYA,Afya Limited,US,NASDAQ
+Education,Education services,APEI,"American Public Education, Inc.",US,NASDAQ
+Education,Education services,ATGE,Adtalem Global Education Inc.,US,NYSE
+Education,Education services,DAO,"Youdao, Inc.",US,NYSE
+Education,Education services,EDU,New Oriental Education & Technology Group Inc.,US,NYSE
+Education,Education services,FC,Franklin Covey Co.,US,NYSE
+Education,Education services,GOTU,Gaotu Techedu Inc.,US,NYSE
+Education,Education services,KLC,"Kindercare Learning Companies, Inc.",US,NYSE
+Education,Education services,LAUR,"Laureate Education, Inc.",US,NASDAQ
+Education,Education services,LINC,Lincoln Educational Services Corporation,US,NASDAQ
+Education,Education services,LOPE,"Grand Canyon Education, Inc.",US,NASDAQ
+Education,Education services,LRN,"Stride, Inc.",US,NYSE
+Education,Education services,PRDO,Perdoceo Education Corporation,US,NASDAQ
+Education,Education services,STRA,"Strategic Education, Inc.",US,NASDAQ
+Education,Education services,TAL,TAL Education Group,US,NYSE
+Alternative asset management,Alternative asset manager,BPT,Bridgepoint Group plc,UK,LSE
+Alternative asset management,Alternative asset manager,EMG,Man Group plc,UK,LSE
+Alternative asset management,Alternative asset manager,ICG,ICG plc,UK,LSE
+Alternative asset management,Alternative asset manager,III,3i Group plc,UK,LSE
+Alternative asset management,Alternative asset manager,PHLL,Petershill Partners plc,UK,LSE
+Alternative asset management,Emerging markets / alternatives,ASHM,Ashmore Group PLC,UK,LSE
+Alternative asset management,Infrastructure / private assets,FSG,Foresight Group Holdings Limited,UK,LSE
+Alternative asset management,Private equity investment company,HGT,HgCapital Trust plc,UK,LSE
+Alternative asset management,Private equity investment company,HVPE,HarbourVest Global Private Equity Limited,UK,LSE
+Alternative asset management,Private equity investment company,NBPE,NB Private Equity Partners Limited,UK,LSE
+Alternative asset management,Private equity investment company,PNL,Pantheon International Plc,UK,LSE
+Alternative asset management,Venture / alternatives,IPO,IP Group plc,UK,LSE
+Alternative asset management,Alternative / resource manager,SII,Sprott Inc.,US,NYSE
+Alternative asset management,Alternative asset manager,APO,"Apollo Global Management, Inc.",US,NYSE
+Alternative asset management,Alternative asset manager,ARES,Ares Management Corporation,US,NYSE
+Alternative asset management,Alternative asset manager,BAM,Brookfield Asset Management Ltd.,US,NYSE
+Alternative asset management,Alternative asset manager,BN,Brookfield Corporation,US,NYSE
+Alternative asset management,Alternative asset manager,BX,Blackstone Inc.,US,NYSE
+Alternative asset management,Alternative asset manager,CG,The Carlyle Group Inc.,US,NASDAQ
+Alternative asset management,Alternative asset manager,GCMG,GCM Grosvenor Inc.,US,NASDAQ
+Alternative asset management,Alternative asset manager,HLNE,Hamilton Lane Incorporated,US,NASDAQ
+Alternative asset management,Alternative asset manager,KKR,KKR & Co. Inc.,US,NYSE
+Alternative asset management,Alternative asset manager,OWL,Blue Owl Capital Inc.,US,NYSE
+Alternative asset management,Alternative asset manager,P10,"P10, Inc.",US,NYSE
+Alternative asset management,Alternative asset manager,PAX,Patria Investments Limited,US,NASDAQ
+Alternative asset management,Alternative asset manager,STEP,StepStone Group Inc.,US,NASDAQ
+Alternative asset management,Alternative asset manager,TPG,TPG Inc.,US,NASDAQ
+Alternative asset management,Litigation finance / alternatives,BUR,Burford Capital Limited,US,NYSE
